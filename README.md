@@ -15,6 +15,5 @@
 <br>
 <br>
 <br>
-# What is this?
 
 # Quick start guide
