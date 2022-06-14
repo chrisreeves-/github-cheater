@@ -1,9 +1,8 @@
 # github-cheater
 
-<a href="https://terraform.io">
-    <img src=".github/meme-no.png" alt="Meme no" title="No" align="right" height="50" />
-</a>
+no
+<img src=".github/meme-no.png" alt="Meme no" title="No" align="left" height="50" />
 
-<a href="https://terraform.io">
-    <img src=".github/meme-yes.png" alt="Meme no" title="No" align="right" height="50" />
-</a>
+yes
+<img src=".github/meme-yes.png" alt="Meme no" title="No" align="left" height="50" />
+
