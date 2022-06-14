@@ -16,4 +16,14 @@
 <br>
 <br>
 
+# What is this?
+This is just a small Python script that you can either run manually or in a pipeline that will git clone a private repository
+of your choosing, create a file inside it and then push it back to your private repository.
+
+# Why do this?
+If you can to get more green squares in your Github profile
+
+# What is the point?
+None, please create a PR if you come up with any
+
 # Quick start guide
