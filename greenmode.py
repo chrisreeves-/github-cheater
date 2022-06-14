@@ -3,6 +3,7 @@ from git import Repo # pip3 install GitPython
 import random
 import string
 import shutil
+import sys
 
 pat = "CHANGEME" # https://docs.github.com/en/authentication/keeping-your-account-and-data-secure/creating-a-personal-access-token
 git_username = "CHANGEME" # Example: https://github.com/github = github
@@ -28,14 +29,7 @@ try:
     print(f"Cloned repository {git_repo}")
 except:
     print(f"Failed to clone repository {git_repo}")
-
-# Create file in repository
-try:
-    with open(f'{folder}/{random}.txt', 'w') as f:
-        f.write('Nothing special in here')
-    print("Created file in repository")
-except:
-    print("Failed to create file")
+    sys.exit(1)
 
 # Pull Repository
 try:
@@ -45,6 +39,16 @@ try:
     print("Pulled repository successfully")
 except:
     print("Failed to pull repository")
+    sys.exit(1)
+
+# Create file in repository
+try:
+    with open(f'{folder}/{random}.txt', 'w') as f:
+        f.write('Nothing special in here')
+    print("Created file in repository")
+except:
+    print("Failed to create file")
+    sys.exit(1)
 
 # Commit file to Github
 try:
@@ -54,6 +58,7 @@ try:
     print("Pushed successfully to Github")
 except:
     print("Failed to push to Github")
+    sys.exit(1)
 
 # Remove Local Repository
 shutil.rmtree(folder, ignore_errors=True)
