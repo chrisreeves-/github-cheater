@@ -39,7 +39,7 @@ None, please create a PR if you come up with any
 ```
 Cloned repository temp
 Created file in repository
-Failed to pull repository
+Pulled repository successfully
 Pushed successfully to Github
 ```
 
