@@ -29,9 +29,19 @@ None, please create a PR if you come up with any
 # Quick start guide
 
 1. Get GitPython by running `pip3 install GitPython`
-2. Create a Github token from: https://docs.github.com/en/authentication/keeping-your-account-and-data-secure/creating-a-personal-access-token
-3. Change `pat` and `git_username` variables
-4. Execute by running `python greenmode.py`
+2. Git clone https://github.com/chrisreeves-/github-cheater
+3. Create a Github token by completing: https://docs.github.com/en/authentication/keeping-your-account-and-data-secure/creating-a-personal-access-token
+4. Change `pat` and `git_username` variables
+5. Execute by running `python greenmode.py`
+
+# Expected Output
+
+```
+Cloned repository temp
+Created file in repository
+Failed to pull repository
+Pushed successfully to Github
+```
 
 # What is the future of this?
 I have big plans for this, the future features are as follows:
