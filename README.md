@@ -36,7 +36,7 @@ None, please create a PR if you come up with any
 
 # Expected Output
 
-```
+```text
 Cloned repository temp
 Created file in repository
 Pulled repository successfully
